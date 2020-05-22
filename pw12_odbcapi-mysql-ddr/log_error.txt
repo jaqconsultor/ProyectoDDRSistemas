@@ -1,0 +1,4 @@
+" CREATE PK user_profile_photos: ALTER TABLE user_profile_photos ADD PRIMARY KEY (id) : SQLSTATE = 42P01
+ERROR: no existe la relación «user_profile_photos»;
+Error while executing the query"
+ 

@@ -1,0 +1,119 @@
+DROP TABLE   departments
+CREATE TABLE departments ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_managements INT UNSIGNED   , id_projects INT UNSIGNED   , nb_department CHAR ( 190 )  , nb_acronym CHAR ( 190 )  , in_activerecord INT   ) 
+ALTER TABLE departments ADD PRIMARY KEY (id)
+ 
+DROP TABLE   dictionary_words
+CREATE TABLE dictionary_words ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , nb_variable CHAR ( 190 )  , nb_value CHAR ( 255 )  , id_languages INT UNSIGNED   ) 
+ALTER TABLE dictionary_words ADD PRIMARY KEY (id)
+ 
+DROP TABLE   failed_jobs
+CREATE TABLE failed_jobs ( id DOUBLE   , connection TEXT   , queue TEXT   ) 
+ALTER TABLE failed_jobs ADD PRIMARY KEY (id)
+ 
+DROP TABLE   in_activerecord
+CREATE TABLE in_activerecord ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , in_activerecord INT   , nb_activerecord CHAR ( 2 )  ) 
+ALTER TABLE in_activerecord ADD PRIMARY KEY (id)
+ 
+DROP TABLE   languages
+CREATE TABLE languages ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , nb_languages CHAR ( 190 )  , nb_acronym CHAR ( 190 )  , in_activerecord INT   ) 
+ALTER TABLE languages ADD PRIMARY KEY (id)
+ 
+DROP TABLE   managements
+CREATE TABLE managements ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects INT UNSIGNED   , nb_management CHAR ( 190 )  , nb_acronym CHAR ( 190 )  , in_activerecord INT   ) 
+ALTER TABLE managements ADD PRIMARY KEY (id)
+ 
+DROP TABLE   parameters_generals
+CREATE TABLE parameters_generals ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects INT UNSIGNED   , id_projects_modules INT UNSIGNED   , id_projects_sections INT UNSIGNED   , nb_parameter CHAR ( 190 )  , tx_value CHAR ( 200 )  , in_activerecord INT   , tx_description CHAR ( 200 )  ) 
+ALTER TABLE parameters_generals ADD PRIMARY KEY (id)
+ 
+DROP TABLE   parameters_generals_users
+CREATE TABLE parameters_generals_users ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects INT UNSIGNED   , id_projects_modules INT UNSIGNED   , id_projects_sections INT UNSIGNED   , nb_parameter CHAR ( 200 )  , tx_value CHAR ( 200 )  , tx_description CHAR ( 200 )  ) 
+ALTER TABLE parameters_generals_users ADD PRIMARY KEY (id)
+ 
+DROP TABLE   parameters_users
+CREATE TABLE parameters_users ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects INT UNSIGNED   , id_projects_modules INT UNSIGNED   , id_projects_sections INT UNSIGNED   , nb_parameter CHAR ( 200 )  , tx_value CHAR ( 200 )  , id_users INT UNSIGNED   , tx_description CHAR ( 200 )  ) 
+ALTER TABLE parameters_users ADD PRIMARY KEY (id)
+ 
+DROP TABLE   password_resets
+CREATE TABLE password_resets ( email CHAR ( 190 )  , token CHAR ( 255 )  , created_at TIMESTAMP   ) 
+ 
+DROP TABLE   products
+CREATE TABLE products ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , title CHAR ( 255 )  , description TEXT   , price INT   , availability INTEGER   ) 
+ALTER TABLE products ADD PRIMARY KEY (id)
+ 
+DROP TABLE   profiles
+CREATE TABLE profiles ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , nb_profile CHAR ( 190 )  , tx_description CHAR ( 200 )  , in_activerecord INT   ) 
+ALTER TABLE profiles ADD PRIMARY KEY (id)
+ 
+DROP TABLE   profiles_departments
+CREATE TABLE profiles_departments ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_profiles INT UNSIGNED   , id_departments INT UNSIGNED   ) 
+ALTER TABLE profiles_departments ADD PRIMARY KEY (id)
+ 
+DROP TABLE   profiles_projects_descriptions
+CREATE TABLE profiles_projects_descriptions ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_profiles INT UNSIGNED   , id_descriptions_objects INT UNSIGNED   , in_activerecord INT   ) 
+ALTER TABLE profiles_projects_descriptions ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects
+CREATE TABLE projects ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , nb_project CHAR ( 190 )  , nb_description CHAR ( 200 )  , nb_acronym CHAR ( 190 )  , in_activo INT   ) 
+ALTER TABLE projects ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects_databases
+CREATE TABLE projects_databases ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects INT UNSIGNED   , id_projects_modules INT UNSIGNED   , id_projects_sections INT UNSIGNED   , nb_databases CHAR ( 200 )  , nb_acronym CHAR ( 50 )  ) 
+ALTER TABLE projects_databases ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects_db_cruds
+CREATE TABLE projects_db_cruds ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects_databases INT UNSIGNED   , id_projects INT UNSIGNED   , nb_cruds CHAR ( 100 )  , nb_owner CHAR ( 100 )  , nb_tabla CHAR ( 100 )  , nb_campo CHAR ( 100 )  , id_type_of_fields INT UNSIGNED   , tx_tipo_de_llenado CHAR ( 100 )  ) 
+ALTER TABLE projects_db_cruds ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects_db_dynamic_lists
+CREATE TABLE projects_db_dynamic_lists ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects_databases INT UNSIGNED   , id_projects INT UNSIGNED   , nb_lists CHAR ( 100 )  , co_lists CHAR ( 20 )  , nb_descripcion CHAR ( 190 )  ) 
+ALTER TABLE projects_db_dynamic_lists ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects_db_querys
+CREATE TABLE projects_db_querys ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects_databases INT UNSIGNED   , id_projects INT UNSIGNED   , in_activerecord INT   , tx_description CHAR ( 255 )  , tx_sql TEXT   , in_ejecuted INT   ) 
+ALTER TABLE projects_db_querys ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects_descriptions
+CREATE TABLE projects_descriptions ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects_modules INT UNSIGNED   , id_projects_sections INT UNSIGNED   , id_type_of_objs INT UNSIGNED   , id_projects INT UNSIGNED   , id_destination INT UNSIGNED   , id_type_of_destination INT UNSIGNED   , nu_order INT   , nu_order1 INT   , nu_order2 INT   , tx_fir_option CHAR ( 200 )  , tx_sec_option CHAR ( 200 )  , tx_thi_option CHAR ( 200 )  , tx_description CHAR ( 255 )  , tx_icon CHAR ( 200 )  , tx_destination CHAR ( 255 )  , nb_parameter CHAR ( 255 )  , tx_value_parameter CHAR ( 255 )  ) 
+ALTER TABLE projects_descriptions ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects_modules
+CREATE TABLE projects_modules ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects INT UNSIGNED   , nb_module CHAR ( 190 )  , in_activerecord INT   , nu_order INT   ) 
+ALTER TABLE projects_modules ADD PRIMARY KEY (id)
+ 
+DROP TABLE   projects_sections
+CREATE TABLE projects_sections ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_projects INT UNSIGNED   , id_projects_modules INT UNSIGNED   , nb_sections CHAR ( 190 )  , in_activerecord INT   ) 
+ALTER TABLE projects_sections ADD PRIMARY KEY (id)
+ 
+DROP TABLE   type_of_destination
+CREATE TABLE type_of_destination ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , nb_type_of_destination CHAR ( 190 )  , nb_acronym CHAR ( 190 )  ) 
+ALTER TABLE type_of_destination ADD PRIMARY KEY (id)
+ 
+DROP TABLE   type_of_fields
+CREATE TABLE type_of_fields ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , nb_type_of_fields CHAR ( 190 )  , nb_acronym CHAR ( 190 )  ) 
+ALTER TABLE type_of_fields ADD PRIMARY KEY (id)
+ 
+DROP TABLE   type_of_objs
+CREATE TABLE type_of_objs ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , nb_type_of_objs CHAR ( 190 )  , nb_acronym CHAR ( 190 )  ) 
+ALTER TABLE type_of_objs ADD PRIMARY KEY (id)
+ 
+DROP TABLE   users
+CREATE TABLE users ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , login CHAR ( 190 )  , name CHAR ( 200 )  , email CHAR ( 190 )  , password CHAR ( 200 )  , remember_token CHAR ( 100 )  , in_verified INT   , in_firstime INT   , email_verified_at TIMESTAMP   , in_activerecord INT   , id_profiles INT UNSIGNED   ) 
+ALTER TABLE users ADD PRIMARY KEY (id)
+ 
+DROP TABLE   users_profiles
+CREATE TABLE users_profiles ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_users INT UNSIGNED   , id_profiles INT UNSIGNED   , fe_vencimiento timestamp without time zone   , in_activerecord INT   ) 
+ALTER TABLE users_profiles ADD PRIMARY KEY (id)
+ 
+DROP TABLE   users_projects_descriptions
+CREATE TABLE users_projects_descriptions ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_users INT UNSIGNED   , id_projects_descriptions INT UNSIGNED   , fe_vencimiento timestamp without time zone   , in_activerecord INT   ) 
+ALTER TABLE users_projects_descriptions ADD PRIMARY KEY (id)
+ 
+DROP TABLE   user_profile_basics
+CREATE TABLE user_profile_basics ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , id_users INT UNSIGNED   ) 
+ALTER TABLE user_profile_basics ADD PRIMARY KEY (id)
+ 
+DROP TABLE   user_profile_photos
+CREATE TABLE user_profile_photos ( id INT UNSIGNED   , created_at TIMESTAMP   , updated_at TIMESTAMP   , tx_photofile CHAR ( 190 )  , id_users INT UNSIGNED   ) 
+ALTER TABLE user_profile_photos ADD PRIMARY KEY (id)
+ 

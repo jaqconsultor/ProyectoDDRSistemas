@@ -1,0 +1,46 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AddTablasIniciales extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+
+         Schema::create('departments', function (Blueprint $table) {            $table->increments('id');            $table->timestamps();        }); 
+
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+
+        Schema::disableForeignKeyConstraints();          Schema::dropIfExists('departments');          Schema::enableForeignKeyConstraints(); 
+
+    }
+
+    /**
+     * Relaciones de las Tablas.
+     *
+     * @return void
+     */
+    public function relaciones()
+    {
+
+        Schema::Create_Relaciones();
+
+    }
+
+}
+

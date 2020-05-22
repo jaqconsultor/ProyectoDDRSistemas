@@ -1,0 +1,10 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "libs_ddrsistemas\\programa_ddr_estandar\\ddr_estandar_app.pbt";
+ 1 "pw10_webservices\\app_ws.pbt";
+ 2 "pw12_odbcapi-mysql-ddr\\odbcapi10.pbt";
+@end;
+DefaultTarget "libs_ddrsistemas\\programa_ddr_estandar\\ddr_estandar_app.pbt";
+DefaultRemoteTarget "libs_ddrsistemas\\programa_ddr_estandar\\ddr_estandar_app.pbt";

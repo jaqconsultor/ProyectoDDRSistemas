@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "odbcapi10.pbt";
+@end;
+DefaultTarget "odbcapi10.pbt";
+DefaultRemoteTarget "odbcapi10.pbt";

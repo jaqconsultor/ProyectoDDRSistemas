@@ -1,0 +1,614 @@
+================================================================================
+Fecha: 13/05/2019 11:26
+Usuario: ADMIN Estacion: 
+Objeto: w_sel_codigo
+Evento/Función: open
+Línea: 5
+Línea: Invalid DataWindow row/column specified at line 5 in open event of object w_sel_codigo.
+================================================================================
+================================================================================
+Fecha: 13/05/2019 11:59
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 31
+Línea: Invalid DataWindow row/column specified at line 31 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 17/05/2019 12:23
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf
+Evento/Función: of_buscar
+Línea: 28
+Línea: Invalid DataWindow row/column specified at line 28 in function of_buscar of object u_cst_rpt_pdf.
+================================================================================
+================================================================================
+Fecha: 17/05/2019 12:24
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf
+Evento/Función: of_buscar
+Línea: 36
+Línea: Invalid DataWindow row/column specified at line 36 in function of_buscar of object u_cst_rpt_pdf.
+================================================================================
+================================================================================
+Fecha: 17/05/2019 13:11
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf
+Evento/Función: of_buscar
+Línea: 32
+Línea: Invalid DataWindow row/column specified at line 32 in function of_buscar of object u_cst_rpt_pdf.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 14:36
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 161
+Línea: Invalid DataWindow row/column specified at line 161 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 14:37
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 170
+Línea: Invalid DataWindow row/column specified at line 170 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 14:38
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 131
+Línea: Invalid DataWindow row/column specified at line 131 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 14:43
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 132
+Línea: Invalid DataWindow row/column specified at line 132 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 14:51
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 133
+Línea: Invalid DataWindow row/column specified at line 133 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 14:54
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 141
+Línea: Invalid DataWindow row/column specified at line 141 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 14:55
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 141
+Línea: Invalid DataWindow row/column specified at line 141 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 15:02
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 142
+Línea: Invalid DataWindow row/column specified at line 142 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 15:06
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 142
+Línea: Invalid DataWindow row/column specified at line 142 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 15:11
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 144
+Línea: Invalid DataWindow row/column specified at line 144 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 27/05/2019 20:44
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 194
+Línea: Invalid DataWindow row/column specified at line 194 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 02/06/2019 22:34
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_mant_tabla_t_empleados
+Evento/Función: ue_postconstructor
+Línea: 6
+Línea: DataWindow column type does not match GetItem type at line 6 in ue_postconstructor event of object u_cst_mant_tabla_t_empleados.
+================================================================================
+================================================================================
+Fecha: 02/06/2019 22:35
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_mant_tabla_t_empleados
+Evento/Función: ue_postconstructor
+Línea: 6
+Línea: DataWindow column type does not match GetItem type at line 6 in ue_postconstructor event of object u_cst_mant_tabla_t_empleados.
+================================================================================
+================================================================================
+Fecha: 02/06/2019 22:36
+Usuario: ADMIN Estacion: 
+Objeto: dw_1
+Evento/Función: clicked
+Línea: 10
+Línea: DataWindow column type does not match GetItem type at line 10 in clicked event of object dw_1 of u_cst_mant_tabla_t_empleados.
+================================================================================
+================================================================================
+Fecha: 03/06/2019 08:22
+Usuario: ADMIN Estacion: 
+Objeto: uo_1
+Evento/Función: ue_buttonclicked
+Línea: 2
+Línea: Null object reference at line 2 in ue_buttonclicked event of object uo_1 of w_ver_empleado.
+================================================================================
+================================================================================
+Fecha: 23/06/2019 16:01
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_xplistbar
+Evento/Función: of_expanditem
+Línea: 1
+Línea: Array boundary exceeded at line 1 in function of_expanditem of object u_cst_xplistbar.
+================================================================================
+================================================================================
+Fecha: 23/06/2019 16:03
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_xplistbar
+Evento/Función: of_expanditem
+Línea: 1
+Línea: Array boundary exceeded at line 1 in function of_expanditem of object u_cst_xplistbar.
+================================================================================
+================================================================================
+Fecha: 05/07/2019 13:12
+Usuario: ADMIN Estacion: 
+Objeto: pb_1
+Evento/Función: clicked
+Línea: 1
+Línea: Dynamic function not found. Possible causes include:
+pass by value/reference mismatch. at line 1 in clicked event of object pb_1 of u_cst_mant_tabla_t_iconos.
+================================================================================
+================================================================================
+Fecha: 05/07/2019 13:15
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_tabpage
+Evento/Función: ue_padre
+Línea: 1
+Línea: Dynamic function not found. Possible causes include:
+pass by value/reference mismatch. at line 1 in ue_padre event of object u_cst_tabpage.
+================================================================================
+================================================================================
+Fecha: 05/07/2019 13:18
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_tabpage
+Evento/Función: ue_padre
+Línea: 1
+Línea: Dynamic function not found. Possible causes include:
+pass by value/reference mismatch. at line 1 in ue_padre event of object u_cst_tabpage.
+================================================================================
+================================================================================
+Fecha: 05/07/2019 13:21
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_tabpage
+Evento/Función: ue_padre
+Línea: 1
+Línea: Dynamic function not found. Possible causes include:
+pass by value/reference mismatch. at line 1 in ue_padre event of object u_cst_tabpage.
+================================================================================
+================================================================================
+Fecha: 05/07/2019 13:22
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_mant_tabla_t_iconos
+Evento/Función: f_padre
+Línea: 2
+Línea: Dynamic function not found. Possible causes include:
+pass by value/reference mismatch. at line 2 in function f_padre of object u_cst_mant_tabla_t_iconos.
+================================================================================
+================================================================================
+Fecha: 05/07/2019 13:24
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_mant_tabla_t_iconos
+Evento/Función: f_padre
+Línea: 4
+Línea: Dynamic function not found. Possible causes include:
+pass by value/reference mismatch. at line 4 in function f_padre of object u_cst_mant_tabla_t_iconos.
+================================================================================
+================================================================================
+Fecha: 05/07/2019 13:45
+Usuario: ADMIN Estacion: 
+Objeto: pb_2
+Evento/Función: clicked
+Línea: 2
+Línea: Wrong number of arguments passed to function/event call at line 2 in clicked event of object pb_2 of u_cst_mant_tabla_t_iconos.
+================================================================================
+================================================================================
+Fecha: 14/07/2019 20:18
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 197
+Línea: Invalid DataWindow row/column specified at line 197 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 18/07/2019 09:41
+Usuario: ADMIN Estacion: 
+Objeto: gf_fechas_1
+Evento/Función: gf_fechas_1
+Línea: 20
+Línea: Invalid DataWindow row/column specified at line 20 in function gf_fechas_1 of object gf_fechas_1.
+================================================================================
+================================================================================
+Fecha: 20/07/2019 16:42
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: rowfocuschanging
+Línea: 6
+Línea: Invalid DataWindow row/column specified at line 6 in rowfocuschanging event of object dw_2 of u_cst_mant_tabla_t_calculos.
+================================================================================
+================================================================================
+Fecha: 24/07/2019 18:21
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas
+Evento/Función: of_buscar
+Línea: 25
+Línea: Invalid DataWindow row/column specified at line 25 in function of_buscar of object u_cst_rpt_pdf_12horas.
+================================================================================
+================================================================================
+Fecha: 24/07/2019 18:44
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas
+Evento/Función: of_buscar
+Línea: 74
+Línea: Invalid DataWindow row/column specified at line 74 in function of_buscar of object u_cst_rpt_pdf_12horas.
+================================================================================
+================================================================================
+Fecha: 24/07/2019 19:29
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas
+Evento/Función: of_buscar
+Línea: 69
+Línea: Invalid DataWindow row/column specified at line 69 in function of_buscar of object u_cst_rpt_pdf_12horas.
+================================================================================
+================================================================================
+Fecha: 24/07/2019 19:35
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas
+Evento/Función: of_buscar
+Línea: 82
+Línea: Invalid DataWindow row/column specified at line 82 in function of_buscar of object u_cst_rpt_pdf_12horas.
+================================================================================
+================================================================================
+Fecha: 24/07/2019 19:37
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas
+Evento/Función: of_buscar
+Línea: 84
+Línea: Invalid DataWindow row/column specified at line 84 in function of_buscar of object u_cst_rpt_pdf_12horas.
+================================================================================
+================================================================================
+Fecha: 24/07/2019 19:42
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas
+Evento/Función: of_buscar
+Línea: 88
+Línea: Invalid DataWindow row/column specified at line 88 in function of_buscar of object u_cst_rpt_pdf_12horas.
+================================================================================
+================================================================================
+Fecha: 24/07/2019 19:53
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas
+Evento/Función: of_buscar
+Línea: 72
+Línea: Invalid DataWindow row/column specified at line 72 in function of_buscar of object u_cst_rpt_pdf_12horas.
+================================================================================
+================================================================================
+Fecha: 06/08/2019 12:15
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo
+Evento/Función: of_generar
+Línea: 41
+Línea: Invalid DataWindow row/column specified at line 41 in function of_generar of object w_nuevo_periodo.
+================================================================================
+================================================================================
+Fecha: 06/08/2019 12:16
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo
+Evento/Función: of_generar
+Línea: 41
+Línea: Invalid DataWindow row/column specified at line 41 in function of_generar of object w_nuevo_periodo.
+================================================================================
+================================================================================
+Fecha: 08/08/2019 08:14
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: rowfocuschanging
+Línea: 8
+Línea: Invalid DataWindow row/column specified at line 8 in rowfocuschanging event of object dw_2 of u_cst_mant_tabla_t_verificar_asistencia.
+================================================================================
+================================================================================
+Fecha: 08/08/2019 10:05
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 228
+Línea: Invalid DataWindow row/column specified at line 228 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 08/08/2019 10:26
+Usuario: ADMIN Estacion: 
+Objeto: gf_cargar_excel
+Evento/Función: gf_cargar_excel
+Línea: 228
+Línea: Invalid DataWindow row/column specified at line 228 in function gf_cargar_excel of object gf_cargar_excel.
+================================================================================
+================================================================================
+Fecha: 18/08/2019 08:34
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: rowfocuschanging
+Línea: 8
+Línea: Invalid DataWindow row/column specified at line 8 in rowfocuschanging event of object dw_2 of u_cst_rpt_general11_verificacion.
+================================================================================
+================================================================================
+Fecha: 19/08/2019 11:26
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: rowfocuschanging
+Línea: 10
+Línea: DataWindow column type does not match GetItem type at line 10 in rowfocuschanging event of object dw_2 of u_cst_mant_tabla_t_calculos.
+================================================================================
+================================================================================
+Fecha: 19/08/2019 22:09
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas_all
+Evento/Función: of_buscar
+Línea: 97
+Línea: Invalid DataWindow row/column specified at line 97 in function of_buscar of object u_cst_rpt_pdf_12horas_all.
+================================================================================
+================================================================================
+Fecha: 19/08/2019 22:12
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas_all
+Evento/Función: of_buscar
+Línea: 99
+Línea: Invalid DataWindow row/column specified at line 99 in function of_buscar of object u_cst_rpt_pdf_12horas_all.
+================================================================================
+================================================================================
+Fecha: 19/08/2019 22:14
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas_all
+Evento/Función: of_buscar
+Línea: 99
+Línea: Invalid DataWindow row/column specified at line 99 in function of_buscar of object u_cst_rpt_pdf_12horas_all.
+================================================================================
+================================================================================
+Fecha: 19/08/2019 22:15
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas_all
+Evento/Función: of_buscar
+Línea: 100
+Línea: Invalid DataWindow row/column specified at line 100 in function of_buscar of object u_cst_rpt_pdf_12horas_all.
+================================================================================
+================================================================================
+Fecha: 19/08/2019 22:17
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas_all
+Evento/Función: of_buscar
+Línea: 94
+Línea: Invalid DataWindow row/column specified at line 94 in function of_buscar of object u_cst_rpt_pdf_12horas_all.
+================================================================================
+================================================================================
+Fecha: 19/08/2019 22:19
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_rpt_pdf_12horas_all
+Evento/Función: of_buscar
+Línea: 100
+Línea: Invalid DataWindow row/column specified at line 100 in function of_buscar of object u_cst_rpt_pdf_12horas_all.
+================================================================================
+================================================================================
+Fecha: 24/08/2019 20:55
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo
+Evento/Función: of_generar
+Línea: 324
+Línea: Invalid DataWindow row/column specified at line 324 in function of_generar of object w_nuevo_periodo.
+================================================================================
+================================================================================
+Fecha: 24/08/2019 20:56
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo
+Evento/Función: of_generar
+Línea: 324
+Línea: Invalid DataWindow row/column specified at line 324 in function of_generar of object w_nuevo_periodo.
+================================================================================
+================================================================================
+Fecha: 24/08/2019 20:59
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo
+Evento/Función: of_generar
+Línea: 324
+Línea: Invalid DataWindow row/column specified at line 324 in function of_generar of object w_nuevo_periodo.
+================================================================================
+================================================================================
+Fecha: 26/08/2019 05:04
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: rbuttondown
+Línea: 10
+Línea: Invalid DataWindow row/column specified at line 10 in rbuttondown event of object dw_2 of u_cst_mant_tabla_t_calculos.
+================================================================================
+================================================================================
+Fecha: 26/08/2019 05:26
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_mant_tabla_t_calculos1
+Evento/Función: of_calcular
+Línea: 41
+Línea: Invalid DataWindow row/column specified at line 41 in function of_calcular of object u_cst_mant_tabla_t_calculos1.
+================================================================================
+================================================================================
+Fecha: 05/10/2019 08:43
+Usuario:  Estacion: 
+Objeto: w_clave
+Evento/Función: open
+Línea: 4
+Línea: Unresolvable external uo_v_general when linking reference at line 4 in open event of object w_clave.
+================================================================================
+================================================================================
+Fecha: 05/10/2019 08:46
+Usuario: ADMIN Estacion: 
+Objeto: w_mod_clave
+Evento/Función: open
+Línea: 2
+Línea: Unresolvable external cg_nombre when linking reference at line 2 in open event of object w_mod_clave.
+================================================================================
+================================================================================
+Fecha: 05/10/2019 08:48
+Usuario:  Estacion: 
+Objeto: w_clave
+Evento/Función: open
+Línea: 28
+Línea: Null object reference at line 28 in open event of object w_clave.
+================================================================================
+================================================================================
+Fecha: 24/10/2019 08:40
+Usuario: ADMIN Estacion: 
+Objeto: w_seleccionar_empleado_d
+Evento/Función: open
+Línea: 2
+Línea: Null object reference at line 2 in open event of object w_seleccionar_empleado_d.
+================================================================================
+================================================================================
+Fecha: 24/10/2019 08:41
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo_d
+Evento/Función: open
+Línea: 31
+Línea: Null object reference at line 31 in open event of object w_nuevo_periodo_d.
+================================================================================
+================================================================================
+Fecha: 24/10/2019 08:43
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo_d
+Evento/Función: open
+Línea: 31
+Línea: Null object reference at line 31 in open event of object w_nuevo_periodo_d.
+================================================================================
+================================================================================
+Fecha: 24/10/2019 08:46
+Usuario: ADMIN Estacion: 
+Objeto: w_nuevo_periodo_d
+Evento/Función: open
+Línea: 31
+Línea: Null object reference at line 31 in open event of object w_nuevo_periodo_d.
+================================================================================
+================================================================================
+Fecha: 24/10/2019 10:46
+Usuario: ADMIN Estacion: 
+Objeto: u_cst_mant_tabla_t_calculos_d
+Evento/Función: ue_postconstructor
+Línea: 73
+Línea: Invalid DataWindow row/column specified at line 73 in ue_postconstructor event of object u_cst_mant_tabla_t_calculos_d.
+================================================================================
+================================================================================
+Fecha: 27/10/2019 14:07
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: doubleclicked
+Línea: 9
+Línea: DataWindow column type does not match GetItem type at line 9 in doubleclicked event of object dw_2 of u_cst_mant_tabla_t_calculos_d.
+================================================================================
+================================================================================
+Fecha: 27/10/2019 14:09
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: doubleclicked
+Línea: 9
+Línea: DataWindow column type does not match GetItem type at line 9 in doubleclicked event of object dw_2 of u_cst_mant_tabla_t_calculos_d.
+================================================================================
+================================================================================
+Fecha: 27/10/2019 14:10
+Usuario: ADMIN Estacion: 
+Objeto: dw_2
+Evento/Función: doubleclicked
+Línea: 64
+Línea: DataWindow column type does not match GetItem type at line 64 in doubleclicked event of object dw_2 of u_cst_mant_tabla_t_calculos_d.
+================================================================================
+================================================================================
+Fecha: 12/03/2020 11:27
+Usuario: ADMIN Estacion: 
+Objeto: st_9
+Evento/Función: doubleclicked
+Línea: 60
+Línea: Null object reference at line 60 in doubleclicked event of object st_9 of w_clave.
+================================================================================
+================================================================================
+Fecha: 12/03/2020 11:46
+Usuario: ADMIN Estacion: 
+Objeto: m_process
+Evento/Función: clicked
+Línea: 24
+Línea: Invalid DataWindow row/column specified at line 24 in clicked event of object m_process of m_main.
+================================================================================
+================================================================================
+Fecha: 12/03/2020 11:47
+Usuario: ADMIN Estacion: 
+Objeto: m_process
+Evento/Función: clicked
+Línea: 24
+Línea: Invalid DataWindow row/column specified at line 24 in clicked event of object m_process of m_main.
+================================================================================
+================================================================================
+Fecha: 12/03/2020 11:48
+Usuario: ADMIN Estacion: 
+Objeto: m_process
+Evento/Función: clicked
+Línea: 47
+Línea: Null object reference at line 47 in clicked event of object m_process of m_main.
+================================================================================
+================================================================================
+Fecha: 12/03/2020 11:52
+Usuario: ADMIN Estacion: 
+Objeto: m_process
+Evento/Función: clicked
+Línea: 49
+Línea: Null object reference at line 49 in clicked event of object m_process of m_main.
+================================================================================
+================================================================================
+Fecha: 12/03/2020 11:55
+Usuario: ADMIN Estacion: 
+Objeto: m_process
+Evento/Función: clicked
+Línea: 42
+Línea: Null object reference at line 42 in clicked event of object m_process of m_main.
+================================================================================
+================================================================================
+Fecha: 09/05/2020 11:19
+Usuario: ADMIN Estacion: 
+Objeto: jaqconsultor
+Evento/Función: open
+Línea: 199
+Línea: Null object reference at line 199 in open event of object jaqconsultor.
+================================================================================
+================================================================================
+Fecha: 09/05/2020 11:19
+Usuario: ADMIN Estacion: 
+Objeto: jaqconsultor
+Evento/Función: open
+Línea: 199
+Línea: Null object reference at line 199 in open event of object jaqconsultor.
+================================================================================

@@ -1,0 +1,100 @@
+Schema::table('departments', function (Blueprint $table) {
+$table->foreign('id_management','fk_reference_4')->references('id')->on('managements');
+});
+
+Schema::table('dictionarywords', function (Blueprint $table) {
+$table->foreign('id_language','fk_reference_49')->references('id')->on('languages');
+});
+
+Schema::table('parametersusers', function (Blueprint $table) {
+$table->foreign('id_user','fk_reference_36')->references('id')->on('users');
+});
+
+Schema::table('profiles_departments', function (Blueprint $table) {
+$table->foreign('id_department','fk_reference_5')->references('id')->on('departments');
+});
+
+Schema::table('profiles_departments', function (Blueprint $table) {
+$table->foreign('id_profile','fk_reference_7')->references('id')->on('profiles');
+});
+
+Schema::table('profiles_projectsdescriptions', function (Blueprint $table) {
+$table->foreign('id_profile','fk_reference_21')->references('id')->on('profiles');
+});
+
+Schema::table('profiles_projectsdescriptions', function (Blueprint $table) {
+$table->foreign('id_descripobjects','fk_reference_20')->references('id')->on('projectsdescriptions');
+});
+
+Schema::table('projectsdescriptions', function (Blueprint $table) {
+$table->foreign('id_module','fk_reference_14')->references('id')->on('projectsmodules');
+});
+
+Schema::table('projectsdescriptions', function (Blueprint $table) {
+$table->foreign('id_section','fk_reference_140')->references('id')->on('projectssections');
+});
+
+Schema::table('projectsdescriptions', function (Blueprint $table) {
+$table->foreign('id_typeofobjs','fk_reference_8')->references('id')->on('typeofobjs');
+});
+
+Schema::table('projectsmodules', function (Blueprint $table) {
+$table->foreign('id_projects','fk_reference_13')->references('id')->on('projects');
+});
+
+Schema::table('projectssections', function (Blueprint $table) {
+$table->foreign('id_projects','fk_reference_131')->references('id')->on('projects');
+});
+
+Schema::table('projects_databases', function (Blueprint $table) {
+$table->foreign('id_projects','fk_reference_202')->references('id')->on('projects');
+});
+
+Schema::table('projects_dbquerys', function (Blueprint $table) {
+$table->foreign('id_projects','fk_reference_200')->references('id')->on('projects');
+});
+
+Schema::table('projects_dbquerys', function (Blueprint $table) {
+$table->foreign('id_database','fk_reference_201')->references('id')->on('projects_databases');
+});
+
+Schema::table('projects_db_cruds', function (Blueprint $table) {
+$table->foreign('id_projects','fk_reference_250')->references('id')->on('projects');
+});
+
+Schema::table('projects_db_cruds', function (Blueprint $table) {
+$table->foreign('id_database','fk_reference_251')->references('id')->on('projects_databases');
+});
+
+Schema::table('projects_db_dynamic_lists', function (Blueprint $table) {
+$table->foreign('id_projects','fk_reference_355')->references('id')->on('projects');
+});
+
+Schema::table('projects_db_dynamic_lists', function (Blueprint $table) {
+$table->foreign('id_database','fk_reference_356')->references('id')->on('projects_databases');
+});
+
+Schema::table('userprofilebasics', function (Blueprint $table) {
+$table->foreign('id_user','fk_reference_34')->references('id')->on('users');
+});
+
+Schema::table('userprofilephotos', function (Blueprint $table) {
+$table->foreign('id_user','fk_reference_40')->references('id')->on('users');
+});
+
+Schema::table('users_profiles', function (Blueprint $table) {
+$table->foreign('id_profile','fk_reference_17')->references('id')->on('profiles');
+});
+
+Schema::table('users_profiles', function (Blueprint $table) {
+$table->foreign('id_user','fk_reference_16')->references('id')->on('users');
+});
+
+Schema::table('users_projectsdescriptions', function (Blueprint $table) {
+$table->foreign('id_descripobjects','fk_reference_19')->references('id')->on('projectsdescriptions');
+});
+
+Schema::table('users_projectsdescriptions', function (Blueprint $table) {
+$table->foreign('id_user','fk_reference_18')->references('id')->on('users');
+});
+

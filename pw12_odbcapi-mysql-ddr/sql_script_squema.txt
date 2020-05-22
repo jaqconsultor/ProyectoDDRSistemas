@@ -1,0 +1,847 @@
+ 
+DB::table('departments')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('departments')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('departments')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('departments')->insert([
+'id_management' => 1 ,
+]);
+ 
+ 
+DB::table('departments')->insert([
+'nb_department' => 1 ,
+]);
+ 
+ 
+DB::table('departments')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('dictionarywords')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('dictionarywords')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('dictionarywords')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('dictionarywords')->insert([
+'nb_variable' => 1 ,
+]);
+ 
+ 
+DB::table('dictionarywords')->insert([
+'nb_value' => 1 ,
+]);
+ 
+ 
+DB::table('dictionarywords')->insert([
+'id_language' => 1 
+]);
+ 
+ 
+ 
+DB::table('failed_jobs')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('failed_jobs')->insert([
+'connection' => 1 ,
+]);
+ 
+ 
+DB::table('failed_jobs')->insert([
+'queue' => 1 
+]);
+ 
+ 
+ 
+DB::table('in_activerecord')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('in_activerecord')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('in_activerecord')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('in_activerecord')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('languages')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('languages')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('languages')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('languages')->insert([
+'nb_languages' => 1 ,
+]);
+ 
+ 
+DB::table('languages')->insert([
+'nb_acronym' => 1 ,
+]);
+ 
+ 
+DB::table('languages')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('managements')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('managements')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('managements')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('managements')->insert([
+'nb_management' => 1 ,
+]);
+ 
+ 
+DB::table('managements')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('migrations')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('migrations')->insert([
+'migration' => 1 ,
+]);
+ 
+ 
+DB::table('migrations')->insert([
+'batch' => 1 
+]);
+ 
+ 
+ 
+DB::table('parametersgenerals')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('parametersgenerals')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('parametersgenerals')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('parametersgenerals')->insert([
+'nb_parameter' => 1 ,
+]);
+ 
+ 
+DB::table('parametersgenerals')->insert([
+'tx_value' => 1 ,
+]);
+ 
+ 
+DB::table('parametersgenerals')->insert([
+'in_activerecord' => 1 ,
+]);
+ 
+ 
+DB::table('parametersgenerals')->insert([
+'tx_description' => 1 
+]);
+ 
+ 
+ 
+DB::table('parametersusers')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('parametersusers')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('parametersusers')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('parametersusers')->insert([
+'nb_parameter' => 1 ,
+]);
+ 
+ 
+DB::table('parametersusers')->insert([
+'tx_value' => 1 ,
+]);
+ 
+ 
+DB::table('parametersusers')->insert([
+'id_user' => 1 ,
+]);
+ 
+ 
+DB::table('parametersusers')->insert([
+'tx_description' => 1 
+]);
+ 
+ 
+ 
+DB::table('password_resets')->insert([
+'email' => 1 ,
+]);
+ 
+ 
+DB::table('password_resets')->insert([
+'token' => 1 ,
+]);
+ 
+ 
+DB::table('password_resets')->insert([
+'created_at' => 1 
+]);
+ 
+ 
+ 
+DB::table('profiles')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('profiles')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('profiles')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('profiles')->insert([
+'nb_profile' => 1 ,
+]);
+ 
+ 
+DB::table('profiles')->insert([
+'tx_description' => 1 ,
+]);
+ 
+ 
+DB::table('profiles')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('profiles_departments')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_departments')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_departments')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_departments')->insert([
+'id_profile' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_departments')->insert([
+'id_department' => 1 
+]);
+ 
+ 
+ 
+DB::table('profiles_projectsdescriptions')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_projectsdescriptions')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_projectsdescriptions')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_projectsdescriptions')->insert([
+'id_profile' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_projectsdescriptions')->insert([
+'id_descripobjects' => 1 ,
+]);
+ 
+ 
+DB::table('profiles_projectsdescriptions')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('projects')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projects')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects')->insert([
+'nb_project' => 1 ,
+]);
+ 
+ 
+DB::table('projects')->insert([
+'nb_description' => 1 ,
+]);
+ 
+ 
+DB::table('projects')->insert([
+'nb_acronym' => 1 
+]);
+ 
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'id_module' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'id_section' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'id_typeofobjs' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'id_destination' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'tx_fir_option' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'tx_sec_option' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'tx_thi_option' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'tx_description' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'tx_icon' => 1 ,
+]);
+ 
+ 
+DB::table('projectsdescriptions')->insert([
+'tx_destination' => 1 
+]);
+ 
+ 
+ 
+DB::table('projectsmodules')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projectsmodules')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projectsmodules')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projectsmodules')->insert([
+'id_projects' => 1 ,
+]);
+ 
+ 
+DB::table('projectsmodules')->insert([
+'nb_module' => 1 ,
+]);
+ 
+ 
+DB::table('projectsmodules')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('projectssections')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projectssections')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projectssections')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projectssections')->insert([
+'id_projects' => 1 ,
+]);
+ 
+ 
+DB::table('projectssections')->insert([
+'nb_sections' => 1 ,
+]);
+ 
+ 
+DB::table('projectssections')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('projects_databases')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projects_databases')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_databases')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_databases')->insert([
+'id_projects' => 1 ,
+]);
+ 
+ 
+DB::table('projects_databases')->insert([
+'nb_databases' => 1 ,
+]);
+ 
+ 
+DB::table('projects_databases')->insert([
+'nb_acronym' => 1 
+]);
+ 
+ 
+ 
+DB::table('projects_dbquerys')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projects_dbquerys')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_dbquerys')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_dbquerys')->insert([
+'id_database' => 1 ,
+]);
+ 
+ 
+DB::table('projects_dbquerys')->insert([
+'id_projects' => 1 ,
+]);
+ 
+ 
+DB::table('projects_dbquerys')->insert([
+'in_activerecord' => 1 ,
+]);
+ 
+ 
+DB::table('projects_dbquerys')->insert([
+'tx_description' => 1 
+]);
+ 
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'id_database' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'id_projects' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'nb_owner' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'nb_tabla' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'nb_campo' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_cruds')->insert([
+'nb_tipo_campo' => 1 
+]);
+ 
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'id_database' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'id_projects' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'nb_lists' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'co_lists' => 1 ,
+]);
+ 
+ 
+DB::table('projects_db_dynamic_lists')->insert([
+'nb_descripcion' => 1 
+]);
+ 
+ 
+ 
+DB::table('typeofobjs')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('typeofobjs')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('typeofobjs')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('typeofobjs')->insert([
+'nb_typeofobjs' => 1 ,
+]);
+ 
+ 
+DB::table('typeofobjs')->insert([
+'nb_acronym' => 1 
+]);
+ 
+ 
+ 
+DB::table('userprofilebasics')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('userprofilebasics')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('userprofilebasics')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('userprofilebasics')->insert([
+'id_user' => 1 
+]);
+ 
+ 
+ 
+DB::table('userprofilephotos')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('userprofilephotos')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('userprofilephotos')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('userprofilephotos')->insert([
+'tx_photofile' => 1 ,
+]);
+ 
+ 
+DB::table('userprofilephotos')->insert([
+'id_user' => 1 
+]);
+ 
+ 
+ 
+DB::table('users')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('users')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('users')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('users')->insert([
+'login' => 1 ,
+]);
+ 
+ 
+DB::table('users')->insert([
+'name' => 1 ,
+]);
+ 
+ 
+DB::table('users')->insert([
+'email' => 1 ,
+]);
+ 
+ 
+DB::table('users')->insert([
+'password' => 1 ,
+]);
+ 
+ 
+DB::table('users')->insert([
+'remember_token' => 1 
+]);
+ 
+ 
+ 
+DB::table('users_profiles')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('users_profiles')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('users_profiles')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('users_profiles')->insert([
+'id_user' => 1 ,
+]);
+ 
+ 
+DB::table('users_profiles')->insert([
+'id_profile' => 1 ,
+]);
+ 
+ 
+DB::table('users_profiles')->insert([
+'fe_vencimiento' => 1 ,
+]);
+ 
+ 
+DB::table('users_profiles')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
+ 
+DB::table('users_projectsdescriptions')->insert([
+'id' => 1 ,
+]);
+ 
+ 
+DB::table('users_projectsdescriptions')->insert([
+'created_at' => 1 ,
+]);
+ 
+ 
+DB::table('users_projectsdescriptions')->insert([
+'updated_at' => 1 ,
+]);
+ 
+ 
+DB::table('users_projectsdescriptions')->insert([
+'id_user' => 1 ,
+]);
+ 
+ 
+DB::table('users_projectsdescriptions')->insert([
+'id_descripobjects' => 1 ,
+]);
+ 
+ 
+DB::table('users_projectsdescriptions')->insert([
+'fe_vencimiento' => 1 ,
+]);
+ 
+ 
+DB::table('users_projectsdescriptions')->insert([
+'in_activerecord' => 1 
+]);
+ 
+ 
